@@ -66,6 +66,6 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`===============================================`);
   console.log(`🚀 Monzato Server running on http://localhost:${PORT}`);
-  console.log(`📡 Local MongoDB: mongodb://localhost:27017/monzato`);
+  console.log(`📡 MongoDB Atlas: cluster0.g16qvlt.mongodb.net/monzatoweb`);
   console.log(`===============================================`);
 });
